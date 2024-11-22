@@ -1,0 +1,41 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Input and button */
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Greeting message styles */
+  .greeting-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: translateY(-20px);
+  }
+  
+  .greeting-message.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Error message styles */
+  .error {
+    color: red;
+    font-size: 1rem;
+  }
+      
